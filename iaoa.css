@@ -1,0 +1,40 @@
+/* iaoa.css adapts the ceur-ws.css style for the IAOA     */
+/* subseries within CEUR-WS.org.                          */
+/* Copyright 2018 by CEURWS Team                          */
+/* Use permitted within CEUR-WS.org.                      */
+/* Modification permitted for members of the CEUR-WS TEAM.*/
+/*                                                        */
+/* THIS STYLE FILE IS FOR EXCLUSIVE USE WITHIN            */
+/* CEUR-WS.ORG! DO NOT COPY IT AS A WHOLE OR AS PARTS.    */
+/* IN PARTICULAR, THE TAGS CEUR* DEFINED BELOW MAY NOT BE */
+/* REUSED OR OVERRIDDEN.                                  */
+/* All references to iaoa.css in HTML files must be       */
+/* relative to ceur-ws.org, e.g. "../iaoa.ccs".           */
+/* Absolute references like "ceur-ws.org/iaoa.css" are    */
+/* not permitted.                                         */
+/*                                                        */
+/* Created:  30-Oct-2018/O.Kutz                           */
+/* Modified: 02-Nov-2018/M.Jeusfeld (background)          */
+/* Modified: 05-Nov-2018/M.Jeusfeld (image size)          */
+/* Modified: 07-Nov-2018/M.Jeusfeld (lighter bg)          */
+
+
+body {
+background-image: url(http://ceur-ws.org/ceurws-iaoa-bg.png);
+}
+
+#IAOALOGO {
+   background-image: url('./iaoa-series.png');
+   width: 146px;
+   height: 100px;
+   color-adjust: exact !important;                 /*Firefox*/
+}
+
+#IAOALOGO:hover {
+   background-image: url('./iaoa-series-hover.png');
+   width: 146px;
+   height: 100px;
+}
+
+/* .CEURVOLNR:before{content:"CEUR-WS.org/"; color:#E9F9FF; font-size:large;} */
+
